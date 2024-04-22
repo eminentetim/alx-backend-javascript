@@ -1,7 +1,14 @@
-const taskFirst = function() {
+export function taskFirst() {
+    const task = 'I prefer const when I can.';
+    return task;
+}
 
-};
+export function taskLast() {
+   return 'is okay';
+}
 
-const taskNext = function() {
-    
-};
+export function taskNext() {
+   let combination = 'but sometimes lat';
+   combination = getLast();
+   return combination;
+}
