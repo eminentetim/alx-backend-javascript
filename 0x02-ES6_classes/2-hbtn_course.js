@@ -1,6 +1,3 @@
-/**
- * Represents a Holberton Course.
- */
 export default class HolbertonCourse {
     /**
      * Creates a new @see {@link HolbertonCourse}.
