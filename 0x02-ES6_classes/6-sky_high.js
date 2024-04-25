@@ -1,21 +1,20 @@
-import Building from './5-building.js'; // Adjust the import path according to your setup
+import Building from './5-building';
 
 export default class SkyHighBuilding extends Building {
   constructor(sqft, floors) {
-    // Call the parent constructor with sqft
     super(sqft);
-
-    // Store attributes with underscore prefix
-    this._floors = floors;
+    this.floors = floors;
   }
 
-  // Getter for floors
   get floors() {
     return this._floors;
   }
 
-  // Override evacuationWarningMessage
+  set floors(value) {
+    this._floors = value;
+  }
+
   evacuationWarningMessage() {
-    return `Evacuate slowly the ${this.floors} floors.`;
+    return `Evacuate slowly the ${this.floors} floors`;
   }
 }
