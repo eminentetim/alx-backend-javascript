@@ -1,12 +1,5 @@
- Typescript
-JavaScript
-
-Requirements
-Allowed editors: vi, vim, emacs, Visual Studio Code
-All your files should end with a new line
-All your files will be transpiled on Ubuntu 18.04
-Your TS scripts will be checked with jest (version 24.9.* )
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the ts extension when possible
-The Typescript compiler should not show any warning or error when compiling your code
+yle --first 0-lockboxes.py 
+0-lockboxes.py:1:2: E114 indentation is not a multiple of 4 (comment)
+0-lockboxes.py:1:2: E116 unexpected indentation (comment)
+0-lockboxes.py:6:1: W293 blank line contains whitespace
 
